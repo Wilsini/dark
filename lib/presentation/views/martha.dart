@@ -51,10 +51,7 @@ class _MarthaPageState extends State<MarthaPage> {
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20),
               ),
-              child: FadeInImage(
-                placeholder: AssetImage('images/ma2.png'),
-                image: AssetImage('images/ma2.png'),
-              ),
+              child: Image.asset('images/ma2.png'), 
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),

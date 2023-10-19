@@ -1,7 +1,7 @@
 import 'package:dark/presentation/views/michaelclip.dart';
 import 'package:dark/presentation/views/mikkelclip.dart';
 import 'package:flutter/material.dart';
-import 'jonasclip.dart'; // Importa la página JonasClip.dart
+import 'jonasclip.dart'; 
 
 class Momentos extends StatefulWidget {
   const Momentos({super.key});

@@ -51,10 +51,7 @@ class _BartoszPageState extends State<BartoszPage> {
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20),
               ),
-              child: FadeInImage(
-                placeholder: AssetImage('images/b2.png'),
-                image: AssetImage('images/b2.png'),
-              ),
+              child: Image.asset('images/b2.png'), 
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),

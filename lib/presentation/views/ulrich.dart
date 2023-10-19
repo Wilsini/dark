@@ -51,10 +51,7 @@ class _UlrichPageState extends State<UlrichPage> {
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20),
               ),
-              child: FadeInImage(
-                placeholder: AssetImage('images/u2.jpg'),
-                image: AssetImage('images/u2.jpg'),
-              ),
+              child: Image.asset('images/u2.jpg'), 
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),

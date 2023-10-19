@@ -198,7 +198,7 @@ class _PersonajesState extends State<Personajes> {
                   onTap: () {
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (context) => MikkelPage(), // Página mikkel.dart
+                        builder: (context) => MikkelPage(), 
                       ),
                     );
                   },
@@ -244,7 +244,7 @@ class _PersonajesState extends State<Personajes> {
                   onTap: () {
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (context) => HannahPage(), // Página hannah.dart
+                        builder: (context) => HannahPage(), 
                       ),
                     );
                   },

@@ -51,10 +51,7 @@ class _MikkelPageState extends State<MikkelPage> {
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20),
               ),
-              child: FadeInImage(
-                placeholder: AssetImage('images/m2.jpg'),
-                image: AssetImage('images/m2.jpg'),
-              ),
+              child: Image.asset('images/m2.jpg'), 
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),

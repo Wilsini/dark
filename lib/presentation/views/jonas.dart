@@ -51,10 +51,7 @@ class _JonasPageState extends State<JonasPage> {
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20),
               ),
-              child: FadeInImage(
-                placeholder: AssetImage('images/j2.jpg'),
-                image: AssetImage('images/j2.jpg'),
-              ),
+              child: Image.asset('images/j2.jpg'), 
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),

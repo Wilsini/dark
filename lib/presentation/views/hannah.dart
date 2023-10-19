@@ -51,10 +51,7 @@ class _HannahPageState extends State<HannahPage> {
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20),
               ),
-              child: FadeInImage(
-                placeholder: AssetImage('images/h2.png'),
-                image: AssetImage('images/h2.png'),
-              ),
+              child: Image.asset('images/h2.png'), 
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
