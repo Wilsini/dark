@@ -66,7 +66,7 @@ return Card(
             ),
           ),
           Padding(padding: const EdgeInsets.all(8.0),
-          child: Text('Baran bo Odar y Jantje Friese', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.white),),
+          child: Text('Baran bo Odar y Jantje Friese', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Color.fromARGB(255, 202, 200, 200)),),
           )
           ],
           )
